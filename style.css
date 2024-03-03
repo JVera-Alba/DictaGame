@@ -1,0 +1,142 @@
+html,
+body {
+    height: 80%;
+}
+div {
+
+    height: auto;
+    display: block;
+    text-align: center;
+
+
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+header {
+    overflow: hidden;
+    height: 100%;
+}
+
+header input {
+    position: absolute;
+    left: -999px;
+}
+
+header input#chord-1:checked~ul label[for="chord-1"] {
+    background: #e31a46;
+}
+
+header input#chord-2:checked~ul label[for="chord-2"] {
+    background: #f89c1d   ;
+}
+
+header input#chord-3:checked~ul label[for="chord-3"] {
+    background: #fff22a;
+}
+
+header input#chord-4:checked~ul label[for="chord-4"] {
+    background: #d4e05a;
+}
+
+header input#chord-5:checked~ul label[for="chord-5"] {
+    background: #009c95;
+}
+
+header input#chord-6:checked~ul label[for="chord-6"] {
+    background: #5d50a1;
+}
+
+header input#chord-7:checked~ul label[for="chord-7"] {
+    background: #ce3795;
+}
+
+header ul {
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 3rem;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+header ul li label {
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5rem;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 3rem;
+}
+
+header ul li+li {
+    border-left: 4px solid #191919;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nota img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Centra la imagen en su contenedor */
+}
+
+
+
+/* BOTONES DE INICIO Y REINICIO DEL JUEGO */
+
+.boton {
+    margin-top: 20px;
+    width: 180px
+}

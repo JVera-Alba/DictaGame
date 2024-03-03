@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dictagame</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8E7jZVd3lgN5tfk0B7TgENUTFSZdkmVDQZe5ryRbVdlcVhlGd9-nrMvzJBPpuLGk4EGnasiLsxduY4SqAEERUvbldPuh_Oc3UjxVPmIPcpQ" charset="UTF-8"></script></head>
+
+<body>
+    <img src="logo.png" width="15%">
+    <div class="topnav">
+
+        <a class="active" href="index.html">Jugar</a>
+    </div>
+
+    <header>
+        <div>
+            <h2 id="nivel">Pulsa el botón "Jugar" para empezar</h2>
+        </div>
+        <input id="chord-1" value="1" type="radio" name="chord" class="tecla" />
+        <input id="chord-2" value="2" type="radio" name="chord" class="tecla" />
+        <input id="chord-3" value="3" type="radio" name="chord" class="tecla" />
+        <input id="chord-4" value="4" type="radio" name="chord" class="tecla" />
+        <input id="chord-5" value="5" type="radio" name="chord" class="tecla" />
+        <input id="chord-6" value="6" type="radio" name="chord" class="tecla" />
+        <input id="chord-7" value="7" type="radio" name="chord" class="tecla" />
+        <ul>
+            <li id="1" class="nota"><label for="chord-1"><img src="img/do.png" alt="DO"></label></li>
+            <li id="2" class="nota"><label for="chord-2"><img src="img/re.png" alt="RE"></label></li>
+            <li id="3" class="nota"><label for="chord-3"><img src="img/mi.png" alt="MI"></label></li>
+            <li id="4" class="nota"><label for="chord-4"><img src="img/fa.png" alt="FA"></label></li>
+            <li id="5" class="nota"><label for="chord-5"><img src="img/sol.png" alt="SOL"></label></li>
+            <li id="6" class="nota"><label for="chord-6"><img src="img/la.png" alt="LA"></label></li>
+            <li id="7" class="nota"><label for="chord-7"><img src="img/si.png" alt="SI"></label></li>          
+        </ul>
+    </header>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src='js/Tone.js'></script>
+    <script src="js/index.js"></script>
+
+    <footer>
+        <button type="button" id="btnIniciar" class="button boton">Jugar</button>
+        <button type="button" id="btnReiniciar" class="button boton">Reiniciar</button>
+    </footer>
+
+</body>
+
+</html>
